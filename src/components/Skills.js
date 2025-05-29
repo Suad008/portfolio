@@ -1,4 +1,5 @@
-import { Container } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
+import { CircularProgressbar } from "react-circular-progressbar";
 import Carousel from "react-multi-carousel";
 
 const Skills = () => {
@@ -36,7 +37,76 @@ const Skills = () => {
                 code Always focused on writing clean, efficient, and
                 maintainable code.
               </p>
-              <Carousel></Carousel>
+              <Carousel
+                infinite={true}
+                className="owl-carousel skill-slider"
+                responsive={responsive}
+              >
+                <div className="item">
+                  <CircularProgressbar
+                    value={80}
+                    text={`80%`}
+                    className="circular-progress-bar"
+                  ></CircularProgressbar>
+                  <h5>React</h5>
+                </div>
+                <div className="item">
+                  <CircularProgressbar
+                    value={85}
+                    text={`85%`}
+                    className="circular-progress-bar"
+                  ></CircularProgressbar>
+                  <h5>Js</h5>
+                </div>
+                <div className="item">
+                  <CircularProgressbar
+                    value={100}
+                    text={`100%`}
+                    className="circular-progress-bar"
+                  ></CircularProgressbar>
+                  <h5>HTML</h5>
+                </div>
+                <div className="item">
+                  <CircularProgressbar
+                    value={100}
+                    text={`100%`}
+                    className="circular-progress-bar"
+                  ></CircularProgressbar>
+                  <h5>CSS</h5>
+                </div>
+                <div className="item">
+                  <CircularProgressbar
+                    value={80}
+                    text={`80%`}
+                    className="circular-progress-bar"
+                  ></CircularProgressbar>
+                  <h5>NodeJs</h5>
+                </div>
+                <div className="item">
+                  <CircularProgressbar
+                    value={85}
+                    text={`85%`}
+                    className="circular-progress-bar"
+                  ></CircularProgressbar>
+                  <h5>TypeScript</h5>
+                </div>
+                <div className="item">
+                  <CircularProgressbar
+                    value={90}
+                    text={`90%`}
+                    className="circular-progress-bar"
+                  ></CircularProgressbar>
+                  <h5>Figma</h5>
+                </div>
+                <div className="item">
+                  <CircularProgressbar
+                    value={85}
+                    text={`85%`}
+                    className="circular-progress-bar"
+                  ></CircularProgressbar>
+                  <h5>Git</h5>
+                </div>
+              </Carousel>
             </div>
           </Col>
         </Row>

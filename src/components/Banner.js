@@ -66,13 +66,12 @@ const Banner = () => {
                   </h1>
                   <p>
                     {" "}
-                    I sdjwh f sijfkw f wkfew jfek wkfed wl lflwke wkd kwelfkkwlf
-                    lwkeflw lwkmd,l 3eofkle e eklfklmd elfmle, leiro hejosl
-                    korla herpje osace heeh ubsjhd hfkdjfhd ed e de ed de de d
-                    edwhwhfe eweruifhwegew iweuifhwehfi ewrfiuwfhiuwerhf
-                    iuhewfiu heriufeh fiuhreifwefwh eihwuf whf wehiwhfihweiufhi
-                    hwduidhwhdwhd ew iudhwieuhwiud ehiudwhdiuh weihd whiu
-                    edhuidhiuhwuhdiuhewiuwhu
+                    Suad Asadullayev Full-Stack Developer I build complete,
+                    responsive, and scalable web applications from front to
+                    back. Proficient in HTML, CSS, JavaScript, React,
+                    TypeScript, and Node.js, I bring ideas to life through clean
+                    UI and solid backend architecture. Focused on performance,
+                    usability, and modern best practices.
                   </p>
                   <HashLink to="#connect">
                     <button>
